@@ -1,0 +1,17 @@
+.child {
+    background-color: red;
+    padding: 20px;
+}
+.child:nth-child(2) {
+    background-color: pink;
+}
+.child:nth-child(3) {
+    background-color: bisque;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
